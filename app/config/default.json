@@ -1,0 +1,13 @@
+{
+  "apiBaseUrl": "http://192.168.0.129:20000/api/v1",
+  "decodeVinApiUrl": "https://fco.firstcallonline.com//FirstCallOnline/vin-scanner/decode-vin-code.json",
+  "decodePlateApiUrl": "https://sms-dev-int-1.firstcallonline.com/EnterpriseServices/services/plate/decode",
+  "oauth": {
+    "authorizationUrl": "https://localhost:8443/oauth/authorize",
+    "tokenUrl": "https://localhost:8443/oauth/token",
+    "clientId": "oreilly",
+    "response_type": "code",
+    "scope": "manage_customer_information",
+    "state": "H12345"
+  }
+}

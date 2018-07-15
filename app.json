@@ -1,0 +1,8 @@
+{
+  "expo": {
+    "name": "Mobile-App",
+    "slug": "mobile-app",
+    "sdkVersion": "24.0.0",
+    "orientation": "portrait"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "rules": {
+    "strict": 0,
+    "react/jsx-filename-extension": ["error", { "extensions": [".js", ".jsx"] }],
+    "global-require": "off",
+    "comma-dangle": "off",
+    "indent": ["error", 2],
+    "space-in-parens": ["error", "never"],
+    "quotes": ["error", "single"],
+    "semi": ["error", "always"],
+    "no-trailing-spaces": "error",
+    "no-whitespace-before-property": "error",
+    "object-shorthand": ["error", "always"],
+    "no-irregular-whitespace": 0,
+    "react/prefer-stateless-function": [
+      0,
+      {
+        "ignorePureComponents": false
+      }
+    ],
+    "react/prop-types": [
+      0,
+      {
+        "ignore": 2,
+        "customValidators": 2
+      }
+    ],
+    "no-multi-str": "off",
+    "no-undef": "off",
+    "no-console": "off",
+    "arrow-body-style": "off",
+    "import/prefer-default-export": "off",
+    "max-len": [
+      0
+    ],
+    "no-alert": "off",
+    "react/no-multi-comp": "off",
+    "no-nested-ternary": "off",
+    "import/no-extraneous-dependencies": [
+      "off",
+      {
+        "devDependencies": false,
+        "optionalDependencies": false,
+        "peerDependencies": false
+      }
+    ],
+    "consistent-return": "off",
+    "arrow-parens": "off",
+    "quote-props": "off"
+  }
+}
